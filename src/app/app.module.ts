@@ -10,6 +10,7 @@ import { NavComponent } from './components/nav/nav.component';
 import { TopLogoBarComponent } from './components/top-logo-bar/top-logo-bar.component';
 import { FirstContainerComponent } from './components/first-container/first-container.component';
 import { OurSpacesComponent } from './components/our-spaces/our-spaces.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 
 const appRoutes: Routes = [
@@ -34,6 +35,7 @@ const appRoutes: Routes = [
     TopLogoBarComponent,
     FirstContainerComponent,
     OurSpacesComponent,
+    FooterComponent,
   ],
   
   imports: [BrowserModule, AppRoutingModule, RouterModule.forRoot(appRoutes)],
