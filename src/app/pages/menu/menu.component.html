@@ -1,0 +1,11 @@
+<nav>
+  <ul class="categories-nav">
+    <li *ngFor="let category of categories" (click)="filterMenu(category)" [class.active]="selectedCategory === category">
+      <a>{{ category }}</a>
+    </li>
+  </ul>
+</nav>
+
+<div class="menu-container">
+  <app-menu-card *ngFor="let item of filteredMenu" [plato]="item"></app-menu-card>
+</div>

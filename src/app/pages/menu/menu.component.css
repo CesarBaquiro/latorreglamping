@@ -1,0 +1,28 @@
+.menu-container{
+    padding-bottom: 30px;
+}
+
+.categories-nav {
+    display: flex;                /* Usa flexbox para alinear los elementos horizontalmente */
+    overflow-x: auto;            /* Permite el desplazamiento horizontal en dispositivos móviles */
+    background-color: black;     /* Fondo negro */
+    color: white;                /* Texto blanco */
+    white-space: nowrap;         /* Evita que los elementos se dividan en varias líneas */
+    padding: 10px 40px;            /* Espaciado vertical en la barra */
+}
+
+.categories-nav li{
+    list-style:none;
+}
+
+.categories-nav a {
+    
+    padding: 10px 20px;         /* Espaciado alrededor de los enlaces */
+    text-decoration: none;       /* Elimina el subrayado de los enlaces */
+    color: white;                /* Asegura que el texto del enlace sea blanco */
+}
+
+.categories-nav a:hover {
+    background-color: rgba(255, 255, 255, 0.1); /* Efecto hover suave */
+    transition: background-color 0.3s;            /* Transición para el efecto hover */
+}

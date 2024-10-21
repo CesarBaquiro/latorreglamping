@@ -11,11 +11,14 @@ import { TopLogoBarComponent } from './components/top-logo-bar/top-logo-bar.comp
 import { FirstContainerComponent } from './components/first-container/first-container.component';
 import { OurSpacesComponent } from './components/our-spaces/our-spaces.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { MenuCardComponent } from './components/menu-card/menu-card.component';
+import { HttpClientModule } from '@angular/common/http';
+import { MenuComponent } from './pages/menu/menu.component';
 
 
 const appRoutes: Routes = [
   { path: '', component: HomeComponent },
-  //{ path: 'collection', component: CollectionComponent },
+  { path: 'menu', component: MenuComponent },
 
   // {
   //   path: 'products',
@@ -36,9 +39,14 @@ const appRoutes: Routes = [
     FirstContainerComponent,
     OurSpacesComponent,
     FooterComponent,
+    MenuCardComponent,
+    MenuComponent,
+    
   ],
   
-  imports: [BrowserModule, AppRoutingModule, RouterModule.forRoot(appRoutes)],
+  imports: [
+    HttpClientModule, // Importar el módulo aquí
+    BrowserModule, AppRoutingModule, RouterModule.forRoot(appRoutes)],
   providers: [],
   bootstrap: [AppComponent],
 })

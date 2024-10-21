@@ -1,0 +1,40 @@
+[
+  {
+    "categoria": "Entradas",
+    "nombre": "Picada para 4 Personas",
+    "descripcion": "Pollo, carne de res, carne de cerdo, arepas, papa, maduro, tomate, lechuga fresca, limón",
+    "precio": 85000
+  },
+    {
+      "categoria": "Tradicionales",
+      "nombre": "Chuleta de Pescado",
+      "descripcion": "Arroz, papa a la francesa y ensalada",
+      "precio": 28000
+    },
+    {
+      "categoria": "Tradicionales",
+      "nombre": "Chuleta de Pollo",
+      "descripcion": "Arroz, papa a la francesa y ensalada",
+      "precio": 26000
+    },
+    {
+      "categoria": "Tradicionales",
+      "nombre": "Chuleta de Cerdo",
+      "descripcion": "Arroz, papa a la francesa y ensalada",
+      "precio": 26000
+    },
+    {
+      "categoria": "Carnes",
+      "nombre": "Picada para 4 Personas",
+      "descripcion": "Pollo, carne de res, carne de cerdo, arepas, papa, maduro, tomate, lechuga fresca, limón",
+      "precio": 85000
+    },
+    {
+      "categoria": "Bebidas",
+      "nombre": "Picada para 4 Personas",
+      "descripcion": "Pollo, carne de res, carne de cerdo, arepas, papa, maduro, tomate, lechuga fresca, limón",
+      "precio": 85000
+    }
+    
+  ]
+  
